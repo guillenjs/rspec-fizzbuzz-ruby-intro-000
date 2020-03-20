@@ -4,5 +4,10 @@ def fizzbuzz
   if
     3%3 == 0 || 5%5 == 0
     puts "fizzbuzz"
-
+  elsif
+    3%3 == 0
+    "Fizz" 
+  else
+    5%5 == 0
+    "Buzz"
 end
