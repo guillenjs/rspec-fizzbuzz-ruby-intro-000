@@ -6,8 +6,9 @@ def fizzbuzz
     puts "fizzbuzz"
   elsif
     3%3 == 0
-    "Fizz" 
+    "Fizz"
   else
     5%5 == 0
     "Buzz"
+  end
 end
